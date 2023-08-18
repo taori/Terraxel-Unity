@@ -5,6 +5,8 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using System.Linq;
+using Assets.Scripts.Data;
+using Assets.Scripts.Managers;
 
 public class TerraxelWindow : EditorWindow
 {

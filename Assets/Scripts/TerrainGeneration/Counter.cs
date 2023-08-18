@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 using System.Threading;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
-using Unity.Mathematics;
 
-namespace Terraxel
+namespace Assets.Scripts.TerrainGeneration
 {
+    // todo : remove
     public unsafe struct Counter : IDisposable
     {
         /// <summary>

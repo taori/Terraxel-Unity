@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GraphProcessor;
 using System.Linq;
-using Terraxel.DataStructures;
+using Assets.Scripts.TerrainGeneration;
 
 [System.Serializable, NodeMenuItem("Math/TerraxelAddNode")]
 public class TerraxelAdd : TerraxelPreviewNode

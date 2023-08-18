@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Unity.Jobs;
-using Unity.Collections;
-using Unity.Mathematics;
+﻿using System.Runtime.CompilerServices;
+using Assets.Resources.Generated;
+using Assets.Scripts.Managers;
 using Unity.Burst;
-using System.Runtime.CompilerServices;
-using System;
-using Unity.Collections.LowLevel.Unsafe;
-using Terraxel.DataStructures;
+using Unity.Collections;
+using Unity.Jobs;
+using Unity.Mathematics;
+using UnityEngine;
 
-namespace Terraxel.WorldGeneration
+namespace Assets.Scripts.TerrainGeneration
 {
     [BurstCompile(FloatPrecision.Low, FloatMode.Fast)]
     public struct Mesh2DJob : IJobFor

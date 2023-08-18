@@ -1,16 +1,16 @@
-using Unity.Mathematics;
-using Unity.Collections;
-using System.Collections.Generic;
-using Unity.Collections.LowLevel.Unsafe;
-using System.Runtime.CompilerServices;
 using System;
-using UnityEngine;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using Unity.Burst.CompilerServices;
+using Assets.Scripts.Managers;
+using Assets.Scripts.Utils;
+using Unity.Collections;
+using Unity.Collections.LowLevel.Unsafe;
+using Unity.Mathematics;
+using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace Terraxel.DataStructures
+namespace Assets.Scripts.TerrainGeneration
 {
 
     public enum ChunkState { DIRTY, READY, INVALID, ROOT, QUEUED }

@@ -4,11 +4,11 @@ using UnityEngine;
 using GraphProcessor;
 using System.Linq;
 using Unity.Mathematics;
-using Terraxel.DataStructures;
 using UnityEditor;
 using System.IO;
 using System;
 using System.Text;
+using Assets.Scripts.TerrainGeneration;
 
 [System.Serializable, NodeMenuItem("Density/Output")]
 public class NoiseOutput : BaseNode

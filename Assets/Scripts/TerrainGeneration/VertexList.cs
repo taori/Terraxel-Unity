@@ -1,10 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Unity.Mathematics;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
-namespace Terraxel.DataStructures
+namespace Assets.Scripts.TerrainGeneration
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct CellIndices
